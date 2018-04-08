@@ -1,0 +1,23 @@
+{
+  "name": "org-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yannicl/org-monitor.git"
+  },
+  "author": "Yannic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yannicl/org-monitor/issues"
+  },
+  "homepage": "https://github.com/yannicl/org-monitor#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
