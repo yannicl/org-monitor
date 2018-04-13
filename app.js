@@ -1,8 +1,11 @@
 const express = require('express')
 const app = express()
 
+var messages {'a':'b'};
+
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify(messages));
 })
 
 app.use(express.static('public'));
