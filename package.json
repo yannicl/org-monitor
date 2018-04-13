@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "app": "node app.js",
-    "s3-deploy": "s3-deploy"
+    "app": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,7 @@
   },
   "homepage": "https://github.com/yannicl/org-monitor#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "s3-deploy": "^0.10.0"
+    "@slack/client": "^4.1.0",
+    "express": "^4.16.3"
   }
 }
